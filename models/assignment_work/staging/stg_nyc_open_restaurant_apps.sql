@@ -16,6 +16,7 @@ staged as (
         cast(latitude as numeric) as latitude,
         cast(longitude as numeric) as longitude,
 
+        seating_interest_sidewalk,
         approved_for_sidewalk_seating,
         approved_for_roadway_seating,
 
