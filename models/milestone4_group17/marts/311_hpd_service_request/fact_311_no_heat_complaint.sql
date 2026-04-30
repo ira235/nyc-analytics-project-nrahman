@@ -34,8 +34,8 @@ joined AS (
         channel_dim.channel_key,
 
         -- Problem + resolution (model-aligned naming)
-        base.descriptor AS problem_detail,
-        base.descriptor_2 AS resolution_description,
+        base.descriptor AS location_detail,
+        base.descriptor_2 AS complaint_detail,
 
         -- Resolution metric
         CASE 
